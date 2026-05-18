@@ -17,3 +17,6 @@ docker compose exec certbot certbot certonly --webroot -w /var/www/certbot \
 
 After the certificate is successfully generated/expanded
 docker compose exec nginx nginx -s reload
+
+To attach the global-proxy-network to your running container immediately, you can use the following Docker command on your VPS:
+docker network connect global-proxy-network retailers-saas-fastapi-1

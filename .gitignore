@@ -11,4 +11,4 @@
 .env*.local
  
 docker-compose.override.yml
-nginx.local.conf
+nginx.local.confdocker-compose.override.yml
